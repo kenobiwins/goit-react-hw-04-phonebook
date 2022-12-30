@@ -1,14 +1,6 @@
 import PropTypes from 'prop-types';
 import { ContactList } from './ContactsList.styled';
 import { ContactsListItem } from 'components/ContactsListItem/ContactsListItem';
-// const ColtactListItem = ({ element:{name,number,id},deleteData }) => {
-
-//     return (
-//     <li data-id={id}>
-//       {name}: {number}<button onClick={deleteData}>Delete</button>
-//     </li>
-//   );
-// };
 
 export const ContactsList = ({ contacts, deleteData }) => {
   return (
